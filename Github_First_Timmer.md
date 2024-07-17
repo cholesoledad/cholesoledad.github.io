@@ -1,31 +1,26 @@
 ## Github First Timmer
 
-First of all do not be scared or nervous. I was because all of my knowledge is from the textbook/lab that have been given to me from the Professor's. 
+Don't Be Scared!
+I was nervous when I first started setting up my GitHub account, but it's actually quite straightforward. The key is to pay attention and follow the instructions carefully.
 
-Setting up personal site for Github using https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+Generate an SSH Key
+To start, you'll need to generate a new SSH key using this link: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-With the above link I had several questions because I made mistakes:
+Don't copy and paste into your web browser - instead, open the Terminal app (it looks like a black screen with a prompt) and follow the instructions.
 
-For instance I copied and pasted into the web browser and not into the terminal. So pay attention to wording and which apps are needed to complete the assignment. 
+Important Tip: 
+When you're typing in the Terminal, remember that \$ is just the prompt, not part of the command. So don't include it when copying and pasting!
 
-Now that I realized I needed the Terminal app, I had to be reminded on how to input wording and not use \$ and to copy and paste because if you type in an error can occur. Remember that \$ is input and the \> is the output. When copying and pasting don't include \$.
+To copy and paste into the Terminal, use Ctrl + Shift + C (or Ctrl + Shift + V or Shift + Insert) to select the text, then right-click and choose "Copy" or press Ctrl + C. When you want to paste, use Ctrl + Shift + V (or Shift + Insert).
 
-To copy and paste into a terminal you can use ctrl shift C or ctrl shift v or shift insert.
+Add Your SSH Key to the SSH Agent
+As you add your SSH key to the agent, don't worry if the "Agent PID" changes - it's normal!
 
-As your adding your SSH key to the ssh-agent just know that every time you input Agent pid changes numbers. Seems to be normal.
+When you get to the passphrase prompt, you can just press Enter. There's no need to enter a passphrase - unless you want to, of course! For me, the less I have to type, the better.
 
-Now when you get to the passphrase, you can just press enter, there is no need to enter a passphrase. Chuck was like enter enter enter which is very helpful but you can if you'd like. For me the less I have to type the better. When someone is watching you like Andrew is me because I am learning, you make mistakes because your nervous.  So the less I have to enter the better. 
+Add Your SSH Key to GitHub
+To add your SSH key to GitHub, copy and paste the public key into your clipboard (using Ctrl + Shift + C or similar). Then, open GitHub and click on the "Add a new SSH key" button.
 
-Adding a new SSH key to your account was a little tricky and Andrew was awesome to help out. 
+Copy the code starting from "ssh-rsa..." and paste it into the "Key" field in GitHub. That's it!
 
-Copy the SSH public key to your clipboard. 
-
-Then copy and past the cat and your key will displayed. 
-
-copy from where the code starts with ssh. 
-
-Then you go into github and add your key to github by clicking 
-
-
-
-Linux Vs. Windows 10
+Remember, setting up your GitHub account is just like solving a puzzle - take your time, follow the instructions carefully, and don't be afraid to ask for help if you need it.
