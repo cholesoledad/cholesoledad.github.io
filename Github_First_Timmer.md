@@ -15,7 +15,7 @@ To start, you'll need to generate a new SSH key using this link: https://docs.gi
 Don't copy and paste into your web browser - instead, open the Terminal app (it looks like a black screen with a prompt) and follow the instructions.
 
 
-#### Important Tip: When you're typing in the Terminal, remember that /$ is just the prompt, not part of the command. So don't include it when copying and pasting!
+#### Important Tip: When you're typing in the Terminal, remember that \$ is just the prompt, not part of the command. So don't include it when copying and pasting!
 
 
 To copy and paste into the Terminal, use Ctrl + Shift + C (or Ctrl + Shift + V or Shift + Insert) to select the text, then right-click and choose "Copy" or press Ctrl + C. When you want to paste, use Ctrl + Shift + V (or Shift + Insert).
